@@ -17,7 +17,7 @@
 ## STEPS:
      Clone the repository
 
-https://github.com/Annamalai-Subramani/Kidney_disease_classification
+     https://github.com/Annamalai-Subramani/Kidney_disease_classification
 
 ## STEP 01- Create a conda environment after opening the repository
     conda create -n cnncls python=3.8 -y
