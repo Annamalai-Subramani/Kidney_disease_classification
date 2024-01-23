@@ -28,3 +28,39 @@
     python app.py
 
 
+# Dagshub
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Annamalai-Subramani/Kidney_disease_classification.mlflow \
+MLFLOW_TRACKING_USERNAME=Annamalai-Subramani \
+MLFLOW_TRACKING_PASSWORD=5834dc456909f93114f5f78ede42333d46fdb630 \
+
+  Run this to export as env variables:
+
+set MLFLOW_TRACKING_URI=https://dagshub.com/Annamalai-Subramani/Kidney_disease_classification.mlflow
+
+set MLFLOW_TRACKING_USERNAME=Annamalai-Subramani 
+
+set MLFLOW_TRACKING_PASSWORD=5834dc456909f93114f5f78ede42333d46fdb630
+
+python script.py
+
+# DVC cmd
+  1. dvc init
+  2. dvc repro
+  3. dvc dag
+
+
+# About MLflow & DVC
+
+  MLflow
+
+1. Its Production Grade
+2. Trace all of your expriements
+3. Logging & taging your model
+
+   DVC
+
+1. Its very lite weight for POC only
+2. lite weight expriements tracker
+3. It can perform Orchestration (Creating Pipelines)
+
